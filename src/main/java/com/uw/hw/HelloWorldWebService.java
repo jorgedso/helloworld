@@ -11,6 +11,11 @@ import javax.ejb.LocalBean;
 @Path("/hellows")
 public class HelloWorldWebService {
 
+    public HelloWorldWebService() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
     @GET
     @Produces("text/plain")
     public String sayHello() {
